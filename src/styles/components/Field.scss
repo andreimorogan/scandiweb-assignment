@@ -1,0 +1,38 @@
+$form-control-background: $blue-gray;
+$form-control-color: $text-primary;
+
+.form-control,
+.form-control:focus {
+  background-color: $form-control-background;
+  color: $form-control-color;
+}
+
+.input-group-text,
+#switcher {
+  background-color: $blue-gray;
+  color: $text-primary;
+  border: 0;
+  width: 8em;
+  margin-right: 0.1rem;
+}
+
+#switcher {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M14.95 7.35L10 12.29l-4.95-4.94a.75.75 0 0 0-1.06 1.06l5.25 5.25a.75.75 0 0 0 1.06 0l5.25-5.25a.75.75 0 0 0-1.06-1.06z" fill="white"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5em;
+}
+  
+
+#switcher:focus {
+  border-color: $purple;
+  outline: none;
+}
+
+#switcher::-ms-expand {
+  display: none;
+}
